@@ -1,8 +1,8 @@
 Lab 12: Box Model, Cards and Scrolling
 
-Name: Sidra Ahmad
+Name: Aryan Gangwar
 
-Roll Number: 2410303596
+Roll Number: 2410303583
 
 
 Course: BCS554 - HTML and CSS Development Lab
