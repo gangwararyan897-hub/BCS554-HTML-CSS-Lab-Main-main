@@ -1,0 +1,31 @@
+/* Name: Sidra Ahmad | Roll No: 2410303596 | Assignment 5 */
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px;
+  line-height: 1.5;
+}
+
+.task {
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin: 16px 0;
+}
+
+.task-label {
+  font-size: 13px;
+  color: #666;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+}
+
+a {
+  color: #1d3557;
+}
+
+img {
+  border: 2px solid #1d3557;
+}

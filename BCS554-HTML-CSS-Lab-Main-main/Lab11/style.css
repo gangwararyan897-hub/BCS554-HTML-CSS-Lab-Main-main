@@ -1,0 +1,72 @@
+/* Name: Sidra Ahmad | Roll No: 2410303596 | Assignment 11 */
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px;
+  line-height: 1.5;
+}
+
+.task {
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin: 16px 0;
+}
+
+.task-label {
+  font-size: 13px;
+  color: #666;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+}
+
+:root {
+  --main-color: #1d3557;
+  --accent-color: #e63946;
+  --page-padding: 20px;
+  --primary: #1d3557;
+  --accent: #e63946;
+  --heading-size: 2rem;
+  --space: 16px;
+}
+
+.box-px {
+  width: 200px;
+  height: 40px;
+  background-color: lightblue;
+  margin-bottom: 10px;
+}
+
+.box-percent {
+  width: 50%;
+  height: 40px;
+  background-color: lightgreen;
+}
+
+.rem-text {
+  font-size: 1.5rem;
+}
+
+.var-demo {
+  color: var(--main-color);
+  padding: var(--page-padding);
+  background-color: #f1faee;
+}
+
+.var-demo h2 {
+  color: var(--accent-color);
+}
+
+.token-demo {
+  color: var(--primary);
+  padding: var(--space);
+  border: 2px solid var(--primary);
+}
+
+.token-demo h1 {
+  color: var(--accent);
+  font-size: var(--heading-size);
+  margin: 0 0 8px 0;
+}

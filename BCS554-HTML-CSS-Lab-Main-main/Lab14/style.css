@@ -1,0 +1,83 @@
+/* Name: Sidra Ahmad | Roll No: 2410303596 | Assignment 14 */
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px;
+  line-height: 1.5;
+}
+
+.task {
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin: 16px 0;
+}
+
+.task-label {
+  font-size: 13px;
+  color: #666;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+}
+
+.grid-three {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+}
+
+.grid-three div {
+  background-color: #a8dadc;
+  padding: 20px;
+  text-align: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.gallery div {
+  background-color: #f1faee;
+  border: 1px solid #1d3557;
+  padding: 40px 10px;
+  text-align: center;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+  gap: 10px;
+  min-height: 240px;
+}
+
+.dash-header {
+  grid-area: header;
+  background-color: #a8dadc;
+}
+
+.dash-sidebar {
+  grid-area: sidebar;
+  background-color: #f1faee;
+}
+
+.dash-main {
+  grid-area: main;
+  background-color: #fff3cd;
+}
+
+.dash-footer {
+  grid-area: footer;
+  background-color: #a8dadc;
+}
+
+.dashboard div {
+  padding: 16px;
+}
